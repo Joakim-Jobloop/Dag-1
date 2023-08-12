@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 80px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    height: fit-content
+}
+
+.nostyle {
+   list-style: none;
+   padding: 0;
+}
+
+body {
+    background-color: rgb(54, 187, 187);
+    color: white;
+   
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+h1 {
+    size: 50px;
+}
+
+h1.intro {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 500px;
+    user-select: none;
+}
+
+h1.intro:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+h1.intro:active {
+    background-color: aliceblue;
+    color: black;
+    
+    
+}
